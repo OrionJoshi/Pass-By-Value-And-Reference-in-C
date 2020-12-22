@@ -88,3 +88,10 @@ In this approach we pass copy of actual variables in function as a parameter. He
 **Output: 10 5**
 
  In this approach we pass memory address actual variables in function as a parameter. Hence any modification on parameters inside the function will reflect in the actual variable.
+
+### If you want to read more, feel free to check these links:
+![https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference](https://www.educative.io/edpresso/pass-by-value-vs-pass-by-reference)
+
+![https://www.tutorialspoint.com/differences-between-pass-by-value-and-pass-by-reference-in-cplusplus](https://www.tutorialspoint.com/differences-between-pass-by-value-and-pass-by-reference-in-cplusplus)
+
+![https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value](https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value)
