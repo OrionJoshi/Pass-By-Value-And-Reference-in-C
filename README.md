@@ -55,3 +55,36 @@ Let us consider a following example
     }
 
 **Output: 5    10**
+
+In this approach we pass copy of actual variables in function as a parameter. Hence any modification on parameters inside the function will not reflect in the actual variable
+
+    #incude<stdio.h>
+
+    int main(){
+
+        int a=5,b=10;
+
+        swap(&a,&b);
+
+        printf("%d %d",a,b);
+
+        return 0;
+
+    } 
+
+    void swap(int *a,int *b){
+
+        int  *temp;
+
+        *temp =*a;
+
+        *a=*b;
+
+        *b=*temp;
+
+    }
+
+
+**Output: 10 5**
+
+ In this approach we pass memory address actual variables in function as a parameter. Hence any modification on parameters inside the function will reflect in the actual variable.
