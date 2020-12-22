@@ -23,3 +23,35 @@ In this method, the addresses of the actual arguments in the calling function ar
 ![reference](./Images/cpp-pass-by-reference.png)
 
 In the above diagram the address in which the variable is store is passed to the function, both the arguments and parameter use same memory block of memory by different reference variables.
+
+### Illustration By Example:
+
+Let us consider a following example
+
+    #include<stdio.h>
+
+    int main(){
+
+        int a=5,b=10;
+
+        swap(a,b);
+
+        printf("%d      %d",a,b);
+
+      return 0;
+
+    } 
+
+    void swap(int a,int b){
+
+      int temp;
+
+      temp =a;
+
+      a=b;
+
+      b=temp;
+
+    }
+
+**Output: 5    10**
